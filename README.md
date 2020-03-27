@@ -9,6 +9,12 @@ It also contains the implementation of the [EdgeConnect](https://arxiv.org/abs/1
 ### Edge-Connect
 The code for [training](https://github.com/advaitkumar3107/GNR-652-Project/blob/master/Edge_Connect_train.ipynb) as well as to perform [predictions](https://github.com/advaitkumar3107/GNR-652-Project/blob/master/Edge_Connect_Predictions.ipynb) is attached above. I have used a few images from the [CelebA](https://github.com/advaitkumar3107/GNR-652-Project/blob/master/celeba/img_align_celeba) dataset for training. The pre-trained [weights](https://github.com/advaitkumar3107/GNR-652-Project/blob/master/weights) are also present(after training for about 350 epochs). Only regular masks were used as part of the training. The gram matrix computation function has been taken from the [official implementation](https://github.com/knazeri/edge-connect). The hyperparameter values were also set according to the official implementation. I used a 80:20 split for the training:testing dataset size.
 
+### Model Architecture
+<p align='center'>  
+  <img src='https://github.com/advaitkumar3107/GNR-652-Project/blob/master/Model_Architecture.png' width='870'/>
+</p>
+Above shown is the architecture as well as the working of the model in brief.
+
 ### Results
 Since the epochs as well as the number of training images were less, the results are not as good as the official implementation. An example of a batch of predictions is as follows:
 <p align='center'>  
