@@ -13,7 +13,7 @@ The code for [training](https://github.com/advaitkumar3107/GNR-652-Project/blob/
 <p align='center'>  
   <img src='https://github.com/advaitkumar3107/GNR-652-Project/blob/master/Model_Architecture.png' width='870'/>
 </p>
-Above shown is the architecture as well as the working of the model in brief.
+Above shown is the architecture as well as the working of the model in brief. The model consists of two GANs. The concatenation of the mask, grayscale image(with mask applied) and edge map(with mask applied) is fed into the first GAN, which outputs the completed edge map(which fills in the missing edge in the mask region). This is then concatenated with the original colour image(with mask) and fed into the second GAN which fills in the colour of the image and gives us the completed image.
 
 ### Results
 Since the epochs as well as the number of training images were less, the results are not as good as the official implementation. An example of a batch of predictions is as follows:
