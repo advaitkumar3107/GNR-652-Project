@@ -20,6 +20,10 @@ Since the epochs as well as the number of training images were less, the results
 <p align='center'>  
   <img src='https://github.com/advaitkumar3107/GNR-652-Project/blob/master/edge_connect.png' width='870'/>
 </p>
-Above are the input images with masks. Masks are depicted in white. Below are the corresponding predictions made by our model.
+Above are the input images with regular masks. Masks are depicted in white. Below are the corresponding predictions made by our model.
 
 
+<p align='center'>  
+  <img src='https://github.com/advaitkumar3107/GNR-652-Project/blob/master/irregular.png' width='870'/>
+</p>
+Above are the input images with irregular masks, below are the corresponding outputs from our model.
