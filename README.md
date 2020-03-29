@@ -24,14 +24,31 @@ Above are the input images with regular masks. Masks are depicted in white.
 
 Next we trained the model on irregular masks(salt and pepper noise) as well. We trained it for 10 epochs on this noise ranging from 10% of the input masked to 60% of it masked(with increments of 10%). Below are the results while testing
 
+At 10%
 ![At 10%](https://github.com/advaitkumar3107/GNR-652-Project/blob/master/results/10%25.png)
+
+At 20%
 ![At 20%](https://github.com/advaitkumar3107/GNR-652-Project/blob/master/results/20%25.png)
+
+At 30%
 ![At 30%](https://github.com/advaitkumar3107/GNR-652-Project/blob/master/results/30%25.png)
+
+At 40%
 ![At 40%](https://github.com/advaitkumar3107/GNR-652-Project/blob/master/results/40%25.png)
+
+At 50%
 ![At 50%](https://github.com/advaitkumar3107/GNR-652-Project/blob/master/results/50%25.png)
+
+At 60%
 ![At 60%](https://github.com/advaitkumar3107/GNR-652-Project/blob/master/results/60%25.png)
+
+At 70%
 ![At 70%](https://github.com/advaitkumar3107/GNR-652-Project/blob/master/results/70%25.png)
+
+At 80%
 ![At 80%](https://github.com/advaitkumar3107/GNR-652-Project/blob/master/results/80%25.png)
+
+At 90%
 ![At 90%](https://github.com/advaitkumar3107/GNR-652-Project/blob/master/results/90%25.png)
 
 As we can see, the de-noising gets better as the percent of pixels masked increases, with the best results at around 50% of the input masked. The accuracy again decreases as the amount of pixels masked increases.
