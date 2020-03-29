@@ -20,10 +20,44 @@ Since the epochs as well as the number of training images were less, the results
 <p align='center'>  
   <img src='https://github.com/advaitkumar3107/GNR-652-Project/blob/master/edge_connect.png' width='870'/>
 </p>
-Above are the input images with regular masks. Masks are depicted in white. Below are the corresponding predictions made by our model.
+Above are the input images with regular masks. Masks are depicted in white. 
 
+Next we trained the model on irregular masks(salt and pepper noise) as well. We trained it for 10 epochs on this noise ranging from 10% of the input masked to 60% of it masked(with increments of 10%). Below are the results while testing
 
+#### AT 10%
 <p align='center'>  
-  <img src='https://github.com/advaitkumar3107/GNR-652-Project/blob/master/irregular.png' width='870'/>
+  <img src='https://github.com/advaitkumar3107/GNR-652-Project/blob/master/results/10%.png' width='870'/>
 </p>
-Above are the input images with irregular masks, below are the corresponding outputs from our model.
+#### AT 20%
+<p align='center'>  
+  <img src='https://github.com/advaitkumar3107/GNR-652-Project/blob/master/results/20%.png' width='870'/>
+</p>
+#### AT 30%
+<p align='center'>  
+  <img src='https://github.com/advaitkumar3107/GNR-652-Project/blob/master/results/30%.png' width='870'/>
+</p>
+#### AT 40%
+<p align='center'>  
+  <img src='https://github.com/advaitkumar3107/GNR-652-Project/blob/master/results/40%.png' width='870'/>
+</p>
+#### AT 50%
+<p align='center'>  
+  <img src='https://github.com/advaitkumar3107/GNR-652-Project/blob/master/results/50%.png' width='870'/>
+</p>
+#### AT 60%
+<p align='center'>  
+  <img src='https://github.com/advaitkumar3107/GNR-652-Project/blob/master/results/60%.png' width='870'/>
+</p>
+#### AT 70%
+<p align='center'>  
+  <img src='https://github.com/advaitkumar3107/GNR-652-Project/blob/master/results/70%.png' width='870'/>
+</p>
+#### AT 80%
+<p align='center'>  
+  <img src='https://github.com/advaitkumar3107/GNR-652-Project/blob/master/results/80%.png' width='870'/>
+</p>
+#### AT 90%
+<p align='center'>  
+  <img src='https://github.com/advaitkumar3107/GNR-652-Project/blob/master/results/90%.png' width='870'/>
+</p>
+As we can see, the de-noising gets better as the percent of pixels masked increases, with the best results at around 50% of the input masked. The accuracy again decreases as the amount of pixels masked increases.
