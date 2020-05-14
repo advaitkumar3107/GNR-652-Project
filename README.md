@@ -1,5 +1,5 @@
 # GNR-652-Project
-Contains implementation of various papers that were read as part of the preparation for the problem statement, "Adversarial Impainting".
+Contains implementation of various papers that were read as part of the preparation for the problem statement, "Adversarial Inpainting".
 
 ## Content
 Consists of implementation of some GANs. Namely, [GAN](https://arxiv.org/abs/1406.2661), [DCGAN](https://arxiv.org/abs/1511.06434) and [WGAN](https://arxiv.org/abs/1701.07875). The implementations are in their respective jupyter notebooks. The [GAN](https://github.com/advaitkumar3107/GNR-652-Project/blob/master/GAN.ipynb) is trained on the MNIST dataset, whereas the [DCGAN](https://github.com/advaitkumar3107/GNR-652-Project/blob/master/DCGAN.ipynb) and [WGAN](https://github.com/advaitkumar3107/GNR-652-Project/blob/master/WGAN.ipynb) are trained on the [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) dataset. 
